@@ -1,5 +1,6 @@
 # AFL-Fuzzer-Instrumentation
 Instrumenting AFL Fuzzer to display intermediate execution information. 
+Note: AFL Fuzzer is from here: http://lcamtuf.coredump.cx/afl/
 
 For better understanding of AFL Fuzzer, I am planning on inserting some code into the original AFL fuzzer source code for recording all the fuzzed inputs locally. So I can read the difference between each generated input and see what has been modified using what fuzzing technique. 
 
